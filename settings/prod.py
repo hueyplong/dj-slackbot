@@ -8,6 +8,6 @@ env = environ.Env()
 environ.Env.read_env(env_file=base(".env"))
 
 SECRET_KEY = env.str("SECRET_KEY")
-DEBUG = env.bool("DEBUG", default=True)
+DEBUG = env.bool("DEBUG", default=False)
 ALLOWED_HOSTS = env.list("ALLOWED_HOSTS")
 DATABASES = {"default": env.db("DATABASE_URL")}
