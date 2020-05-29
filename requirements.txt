@@ -1,0 +1,16 @@
+aiohttp==3.6.2
+async-timeout==3.0.1
+attrs==19.3.0
+chardet==3.0.4
+Django==2.2.12
+django-environ==0.4.5
+djangorestframework==3.11.0
+idna==2.9
+idna-ssl==1.1.0
+multidict==4.7.6
+mysqlclient==1.4.6
+pytz==2020.1
+slackclient==2.6.1
+sqlparse==0.3.1
+typing-extensions==3.7.4.2
+yarl==1.4.2
