@@ -15,6 +15,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "rest_framework",
     "dj_slackbot.rest",
+    "dj_slackbot.jeopardy",
 ]
 
 MIDDLEWARE = [
